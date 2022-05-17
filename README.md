@@ -7,11 +7,11 @@ A lightweight front-end framework for building accessible, bespoke interfaces.
 Libraries included:
 
 1. Bootstrap v5.2 (https://getbootstrap.com/docs/5.1)
-2. Font Awesome 6
-3. Icons8 Line Awesome
-4. FullCalendar v5.11.0 
-5. Chart.js v3.7.1
-6. Circle Progress
+2. Font Awesome 6 (https://fontawesome.com/)
+3. Icons8 Line Awesome (https://icons8.com/line-awesome)
+4. FullCalendar v5.11.0 (https://fullcalendar.io/)
+5. Chart.js v3.7.1 (https://www.chartjs.org/)
+6. Circle Progress (https://tigrr.github.io/circle-progress/)
 
 
 
