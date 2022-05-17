@@ -31,4 +31,12 @@
             overflow-x: scroll;
         }
     }
+    .fc-header-toolbar {
+        top: -8%;
+    }
+    .table-data-footer {
+        .side-points {
+            margin-left:inherit;
+        }
+    }
 }

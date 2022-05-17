@@ -138,7 +138,13 @@
           <option value="3">Three</option>
         </select>
 
-        <canvas id="myChart" height="400" style="height: 100%; width: 100%;"></canvas>
+        <div class="bar-wrapper">
+          <div class="chart-container">
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+
+        
       </div>
     </div>
 
@@ -318,20 +324,18 @@
         </div>
       </div>
     </div>
-    <div class="card round-2 p-3 mt-1">
+    <div class="card round-2 p-3 mt-1 table-data-footer">
       <div class="row g-1">
-          <div class="col-10 d-flex align-items-center">
+          <div class="col-md-10 col-8 d-flex align-items-center">
             <h3 class="h6 fw-bold mb-0">Total Mark</h3>
           </div>
-          <div class="col-2 d-flex align-items-center" style="margin-left: -0.9rem;">
+          <div class="side-points col-md-2 col-4 d-flex align-items-center">
             <div class="d-flex justify-content-between w-100">
               <div class="vr"></div>
               <h3 class="h6 mb-0"> <span class="fw-bold f-3">3785</span> / <span class="text-muted-2 f-3">4000</span></h3>
             </div>
           </div>
-      </div>
-      
-      
+      </div>   
     </div>
 
   </div>
@@ -427,7 +431,7 @@
 
     var densityData = {
       label: 'Adam',
-      data: [19, 13, 20, 15, 14, 12, 16, 23, 11, 17, 15],
+      data: [19, 13, 20, 15, 14, 12, 16, 23, 11, 17, 15, 15, 14, 12, 16, 23],
       backgroundColor: '#E5F0F7',
       borderColor: '#0575B6',
       borderWidth: 2,
@@ -437,7 +441,7 @@
 
     var gravityData = {
       label: 'Average',
-      data: [15, 20, 10, 13, 14, 13, 20, 19, 20, 15, 14],
+      data: [15, 20, 10, 13, 14, 13, 20, 19, 20, 15, 14, 10, 13, 14, 13, 20],
       backgroundColor: '#E5E5E5',
       borderColor: '#333333',
       borderWidth: 2,
@@ -446,7 +450,7 @@
     };
 
     var planetData = {
-      labels: ["19/5", "18/4", "17/6", "20/7", "22/7", "30/8", "30/8", "30/8", "30/8", "30/8", "30/8"],
+      labels: ["19/5", "18/4", "17/6", "20/7", "22/7", "30/8", "30/8", "30/8", "30/8", "30/8", "30/8","20/7", "22/7", "30/8", "30/8", "30/8"],
       datasets: [densityData, gravityData]
     };
 
@@ -458,6 +462,7 @@
 
       options: {
         responsive: true,
+        maintainAspectRatio: true,
         plugins: {
           legend: {
             position: "top",

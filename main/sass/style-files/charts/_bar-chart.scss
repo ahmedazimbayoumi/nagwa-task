@@ -16,3 +16,14 @@
 .form-select {
     background-image: url('./../img/circle-chevron-down-solid.svg');
 }
+
+.bar-wrapper {
+   
+    @media (max-width: 767.98px) {
+        overflow-x: scroll;
+        .chart-container {
+            position: relative;  width:900px;
+        }
+    }
+    
+}

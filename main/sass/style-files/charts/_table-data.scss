@@ -10,3 +10,9 @@ th {
 .table tr:last-child th {
     border-bottom: 0;
 }
+
+.table-data-footer {
+    .side-points {
+        margin-left: -.9rem;
+    }
+}
