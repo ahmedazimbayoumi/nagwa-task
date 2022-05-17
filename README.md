@@ -1,4 +1,4 @@
-# 🐞 CodyFrame
+Nagwa Assessment Task
 A lightweight front-end framework for building accessible, bespoke interfaces.
 
 [Documentation on codyhouse.co →](https://codyhouse.co/ds/get-started)

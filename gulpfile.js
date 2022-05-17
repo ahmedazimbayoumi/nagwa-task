@@ -99,15 +99,15 @@ gulp.task('dist', async function(){
 function purgeCSS() {
   return new Promise(function(resolve, reject) {
     var stream = gulp.src(cssFolder+'/main.css')
-    .pipe(purgecss({
-      content: ['main/*.html', scriptsJsPath+'/scripts.js'],
-      safelist: {
-        standard: ['.is-hidden', '.is-visible'],
-        deep: [/class$/],
-        greedy: []
-      },
-      defaultExtractor: content => content.match(/[\w-/:%@]+(?<!:)/g) || []
-    }))
+    // .pipe(purgecss({
+    //   content: ['main/*.html', scriptsJsPath+'/scripts.js'],
+    //   safelist: {
+    //     standard: ['.is-hidden', '.is-visible'],
+    //     deep: [/class$/],
+    //     greedy: []
+    //   },
+    //   defaultExtractor: content => content.match(/[\w-/:%@]+(?<!:)/g) || []
+    // }))
     .pipe(gulp.dest(distFolder+'/assets/css'));
     
     stream.on('finish', function() {
