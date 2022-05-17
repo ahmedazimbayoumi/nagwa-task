@@ -1,6 +1,5 @@
 Nagwa Assessment Task
 
-A lightweight front-end framework for building accessible, bespoke interfaces.
 
 [Public URL for task →](https://ahmedazimbayoumi.github.io/nagwa-task/)
 
