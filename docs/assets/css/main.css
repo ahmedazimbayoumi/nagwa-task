@@ -34547,9 +34547,9 @@ readers do not read off random characters that represent icons */
   .btns-card {
     order: 3;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: auto !important;
-    margin-top: 0.5rem !important;
+    justify-content: flex-start;
+    margin: 0 !important;
+    margin-top: 1.5rem !important;
   }
   .btns-card .btn {
     margin-bottom: 0.5rem;
