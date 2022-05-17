@@ -6,7 +6,7 @@ A lightweight front-end framework for building accessible, bespoke interfaces.
 
 Libraries included:
 
-1. Bootstrap v5.2
+1. Bootstrap v5.2 (https://getbootstrap.com/docs/5.1)
 2. Font Awesome 6
 3. Icons8 Line Awesome
 4. FullCalendar v5.11.0 
