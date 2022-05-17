@@ -15377,41 +15377,6 @@ footer .text {
   font-size: 0.875rem;
 }
 
-@media (max-width: 767.98px) {
-  .imgs-cards {
-    flex-wrap: wrap;
-  }
-  .imgs-cards .main-img {
-    max-width: 50px;
-    height: auto;
-  }
-
-  .imgs-cards {
-    order: 1;
-  }
-
-  .btns-card {
-    order: 3;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto !important;
-    margin-top: 0.5rem !important;
-  }
-  .btns-card .btn {
-    margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
-  }
-
-  .main-btn {
-    order: 2;
-  }
-
-  .table-data .content {
-    flex-wrap: nowrap;
-    display: flex;
-    overflow-x: scroll;
-  }
-}
 .round-1 {
   border-radius: 13px;
 }
@@ -15504,6 +15469,16 @@ footer .text {
   background-image: url("./../img/circle-chevron-down-solid.svg");
 }
 
+@media (max-width: 767.98px) {
+  .bar-wrapper {
+    overflow-x: scroll;
+  }
+  .bar-wrapper .chart-container {
+    position: relative;
+    width: 900px;
+  }
+}
+
 .fc .fc-daygrid-day-frame {
   background-color: #f1f7e7;
 }
@@ -15514,7 +15489,7 @@ footer .text {
 
 .fc-header-toolbar {
   position: absolute;
-  top: -50px;
+  top: -10%;
   right: 0;
 }
 
@@ -15621,6 +15596,10 @@ th {
 
 .table tr:last-child th {
   border-bottom: 0;
+}
+
+.table-data-footer .side-points {
+  margin-left: -0.9rem;
 }
 
 .la,
@@ -34551,4 +34530,47 @@ readers do not read off random characters that represent icons */
   font-display: block;
   src: url("./../../assets/fonts/fontawesome/fa-v4compatibility.woff2") format("woff2"), url("./../../assets/fonts/fontawesome/fa-v4compatibility.ttf") format("truetype");
   unicode-range: U+F041, U+F047, U+F065-F066, U+F07D-F07E, U+F080, U+F08B, U+F08E, U+F090, U+F09A, U+F0AC, U+F0AE, U+F0B2, U+F0D0, U+F0D6, U+F0E4, U+F0EC, U+F10A-F10B, U+F123, U+F13E, U+F148-F149, U+F14C, U+F156, U+F15E, U+F160-F161, U+F163, U+F175-F178, U+F195, U+F1F8, U+F219, U+F250, U+F252, U+F27A;
+}
+@media (max-width: 767.98px) {
+  .imgs-cards {
+    flex-wrap: wrap;
+  }
+  .imgs-cards .main-img {
+    max-width: 50px;
+    height: auto;
+  }
+
+  .imgs-cards {
+    order: 1;
+  }
+
+  .btns-card {
+    order: 3;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto !important;
+    margin-top: 0.5rem !important;
+  }
+  .btns-card .btn {
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .main-btn {
+    order: 2;
+  }
+
+  .table-data .content {
+    flex-wrap: nowrap;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .fc-header-toolbar {
+    top: -8%;
+  }
+
+  .table-data-footer .side-points {
+    margin-left: inherit;
+  }
 }
