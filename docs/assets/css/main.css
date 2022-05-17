@@ -14400,7 +14400,8 @@ A HORIZONTAL event
 
 .fc .fc-daygrid-day-top {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  margin-right: -7px;
 }
 
 .fc .fc-day-other .fc-daygrid-day-top {
@@ -34572,5 +34573,9 @@ readers do not read off random characters that represent icons */
 
   .table-data-footer .side-points {
     margin-left: inherit;
+  }
+
+  .main-card-title.first {
+    margin-bottom: 10px;
   }
 }
