@@ -12,9 +12,9 @@
     .btns-card {
         order: 3;
         flex-wrap: wrap;
-        justify-content: center;
-        margin: auto !important;
-        margin-top: .5rem !important;
+        justify-content: flex-start;
+        margin: 0 !important;
+        margin-top: 1.5rem !important;
 
         .btn {
             margin-bottom: .5rem;
