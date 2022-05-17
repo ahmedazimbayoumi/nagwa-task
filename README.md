@@ -2,14 +2,16 @@ Nagwa Assessment Task
 
 A lightweight front-end framework for building accessible, bespoke interfaces.
 
-[Documentation on codyhouse.co →](https://codyhouse.co/ds/get-started)
+[Public URL for task →](https://ahmedazimbayoumi.github.io/nagwa-task/)
 
-Files included:
+Libraries included:
 
-1. **base/*:** essential CSS rules and utility classes (we suggest you don't modify these files).
-2. **custom-style/*:** SCSS templates you can use to create your bespoke style.
-3. **style.scss:** used to import the _base.scss and _custom-style.scss files.
-4. **util.js:** utility functions used in the [CodyHouse components](https://codyhouse.co/ds/components). Make sure to import this file before the script file of the components.
+1. Bootstrap v5.2
+2. Font Awesome 6
+3. Icons8 Line Awesome
+4. FullCalendar v5.11.0 
+5. Chart.js v3.7.1
+6. Circle Progress
 
 
 
@@ -17,7 +19,7 @@ Files included:
 
 
 ## Gulp
-CodyFrame includes a Gulp configuration file. To start a project that runs on Gulp, navigate to the framework folder, and run the following two commands:
+Project includes a Gulp configuration file. To start a project that runs on Gulp, navigate to the root folder, and run the following two commands:
 
 1) Install the node modules
 
@@ -28,15 +30,11 @@ npm install
 2) Launch your project on a development server
 
 ```
-npm run gulp watch
+gulp
 ```
 
 
-## Component library
 
-CodyHouse's components are accessible, progressively enhanced, HTML, CSS, JS components that work seamlessly with CodyFrame.
-
-[Explore the components](https://codyhouse.co/ds/components)
 
 
 
