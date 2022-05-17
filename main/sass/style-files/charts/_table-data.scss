@@ -1,0 +1,12 @@
+th {
+    font-weight: normal;
+}
+
+.table tr th {
+    border-bottom: 0.1rem solid #f1f0f0;
+    padding: 1rem 0;
+}
+
+.table tr:last-child th {
+    border-bottom: 0;
+}

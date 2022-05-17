@@ -1,0 +1,38 @@
+
+.progress-chart {
+    .circle-progress-value {
+        stroke-width: 3px;
+        stroke-dasharray: 0 1;
+        stroke-linecap: round;
+
+    }
+    
+    .circle-progress-circle {
+        stroke-width: 6px;
+        stroke: #fbfbfc;
+    }
+    &.progress1 {
+        .circle-progress-value {
+            stroke: #4A3274;
+        }
+        .circle-progress-text {
+            fill: #4A3274;
+        }
+    }
+    &.progress2 {
+        .circle-progress-value {
+            stroke: #739500;
+        }
+        .circle-progress-text {
+            fill: #739500;
+        }
+    }
+    &.progress3 {
+        .circle-progress-value {
+            stroke: #950086;
+        }
+        .circle-progress-text {
+            fill: #950086;
+        }
+    }
+}

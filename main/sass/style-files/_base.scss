@@ -1,0 +1,65 @@
+/* Base Styles -------------------- */
+html,body {
+    font-family: 'Noto Sans', sans-serif;
+    color: $body-color;
+}
+html {
+    font-size: 16px;
+} 
+
+@media (max-width: 768px) {
+    html {
+        font-size: 13px
+    }
+}
+
+// body {
+//     @include ltr(font-family, $main-font-regular);
+//     @include rtl(font-family, $arabic-font-regular);
+//     @include ltr(background-image, url('./../img/1.jpg'));
+//     @include rtl(background-image, url('./../img/2.jpg'));
+// }
+
+// .heading {
+//     @include ltr(text-align, left);
+//     @include rtl(text-align, right);
+//     background-color: #fff;
+// }
+
+body {
+    background-color: #FBFBFC;
+}
+
+
+
+.main-btn {
+    min-width: 9rem;
+    height: 2.8rem;
+}
+
+.main-card-title {
+    position: relative;
+    padding-left: 1rem;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 9px;
+        height: 29px;
+        background-color: #AE7129;
+        left: 0;
+        top: -1px;
+        border-radius: 6px;
+    }
+}
+
+.dropdown-toggle {
+    color: #969696;
+    font-size: 1.25rem;
+}
+
+
+.main-card-title {
+    &.first {
+        margin-bottom: 14px;
+    }
+}

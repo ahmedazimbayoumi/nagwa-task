@@ -1,0 +1,34 @@
+@include media-breakpoint-down(md) {
+    .imgs-cards {
+        flex-wrap: wrap;
+        .main-img {
+            max-width: 50px;
+            height: auto;
+        }
+    }
+    .imgs-cards {
+        order: 1;
+    }
+    .btns-card {
+        order: 3;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto !important;
+        margin-top: .5rem !important;
+
+        .btn {
+            margin-bottom: .5rem;
+            margin-right: .5rem;
+        }
+    }
+    .main-btn {
+        order: 2;
+    }
+    .table-data {
+        .content {
+            flex-wrap: nowrap;
+            display: flex;
+            overflow-x: scroll;
+        }
+    }
+}

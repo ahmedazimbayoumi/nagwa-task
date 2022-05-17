@@ -1,0 +1,20 @@
+.btns-card {
+    display: flex;
+    align-items: center;
+    .btn {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        justify-content: center;
+        &.filter-btn {
+            color: $body-color;
+        }
+        &.active {
+            background-color: $primary-light;
+            color: $primary;
+            font-weight: 600;
+        }
+    }
+    
+}
