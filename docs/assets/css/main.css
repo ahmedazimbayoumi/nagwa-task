@@ -34578,4 +34578,11 @@ readers do not read off random characters that represent icons */
   .main-card-title.first {
     margin-bottom: 10px;
   }
+
+  .main-card-title:before {
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: -2px;
+  }
 }
