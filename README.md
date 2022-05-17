@@ -14,11 +14,10 @@ Libraries included:
 
 
 
-
-
-
 ## Gulp
 Project includes a Gulp configuration file. To start a project that runs on Gulp, navigate to the root folder, and run the following two commands:
+
+**gulpfile.js** is based on CodyFrame front-end framework (https://github.com/CodyHouse/codyhouse-framework)
 
 1) Install the node modules
 
