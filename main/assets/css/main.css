@@ -15460,7 +15460,7 @@ footer .text {
   width: auto;
   font-size: 0.75rem;
   border: 0;
-  top: -4px;
+  top: -8px;
 }
 .bar-chart .form-select a {
   font-size: 0.75rem;
@@ -15532,7 +15532,10 @@ footer .text {
   background-color: transparent !important;
 }
 .fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame {
-  background-color: #243705;
+  background-color: #5c7b2a;
+}
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame a {
+  color: #ffffff !important;
 }
 
 .fc .fc-daygrid-day a {
@@ -34584,5 +34587,9 @@ readers do not read off random characters that represent icons */
     height: 25px;
     left: 0;
     top: -2px;
+  }
+
+  .bar-chart .form-select {
+    top: -4px;
   }
 }

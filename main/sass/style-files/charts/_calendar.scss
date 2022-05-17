@@ -60,7 +60,10 @@
 .fc .fc-daygrid-day.fc-day-today {
     background-color: transparent !important;
     .fc-daygrid-day-frame {
-        background-color: #243705;
+        background-color: #5c7b2a;
+        a {
+            color: #ffffff !important;
+        }
     }
 }
 
